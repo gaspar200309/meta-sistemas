@@ -20,7 +20,7 @@ export default function Hero() {
   useEffect(() => {
     const loadStudents = async () => {
       try {
-        const response = await fetch("/estudiantes.xlsx");
+        const response = await fetch("/lista.xlsx");
         const buffer = await response.arrayBuffer();
         const workbook = XLSX.read(buffer);
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
@@ -68,7 +68,6 @@ export default function Hero() {
           </p>
 
           <div className="mt-6 rounded-[1.5rem] border border-blue-400/20 bg-white/[0.04] p-5 backdrop-blur-xl">
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-cyan-300">Más de {STUDENTS_TOTAL.toLocaleString("es-BO")} estudiantes habilitados</p>
             <p className="mt-2 text-slate-300">Ingresa tu CI y consulta en qué mesa votas.</p>
 
             <div className="mt-4 flex flex-col gap-3 sm:flex-row">
