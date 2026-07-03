@@ -81,6 +81,18 @@ const proposals = [
     title: "Organizacion de una chocolatada o refrigerio en fechas especiales",
     description: "Organización de una chocolatada o refrigerio en fechas especiales para que los estudiantes puedan disfrutar de un momento agradable y compartir con sus compañeros.", 
     image: "/propuestas/refrigerio.png",
+  },
+  {
+    title: "Videos informativos y educativos",
+    description:
+      "Creación de videos informativos y educativos sobre temas relevantes para los estudiantes, como consejos de estudio, entrevistas con profesionales y tutoriales.",
+    image: "/propuestas/videos.png",
+  },
+  {
+    title: "Adquicisión de juegos y balones para el prestamo",
+    description:
+      "Adquisición de juegos y balones para el préstamo de tal manera implementaremos la adquicision de juegos de mesa y balones para que los estudiantes puedan prestarse y disfrutar de sus actividades.",
+    image: "/propuestas/juegos.png",
   }
   
 
