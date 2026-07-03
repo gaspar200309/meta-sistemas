@@ -3,8 +3,6 @@ import Image from "next/image";
 
 const navItems = [
   { label: "Propuestas", href: "#propuestas" },
-  { label: "Equipo", href: "#equipo" },
-  { label: "Beneficios", href: "#beneficios" },
 ];
 
 export default function Navbar() {
