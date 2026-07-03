@@ -32,8 +32,16 @@ const proposals = [
     title: "Bolsa de Oportunidades",
     description:
       "Publicaremos constantemente pasantías, becas, empleos y convocatorias para facilitar el crecimiento profesional de los estudiantes.",
-    image: "/propuestas/oportunidades.png",
+    image: "/propuestas/bolsa.png",
   },
+    {
+    title: "Implementacion de toma corrientes",
+    description:
+      "Conexión a la corriente eléctrica en los laboratorios de computación para que los estudiantes puedan cargar sus dispositivos mientras trabajan en proyectos y tareas.",
+    image: "/propuestas/tomacorrientes.png",
+  },
+  
+
 ];
 
 export default function ProposalsSection() {
