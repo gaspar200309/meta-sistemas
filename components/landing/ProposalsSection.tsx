@@ -14,7 +14,7 @@ const proposals = [
     title: "Banco de Recursos",
     description:
       "Crearemos una biblioteca digital con libros, exámenes, prácticas, guías y material organizado por semestre para todos los estudiantes.",
-    image: "/propuestas/recursos.png",
+    image: "/propuestas/banco.png",
   },
   {
     title: "Apoyo Estudiantil",
@@ -40,6 +40,48 @@ const proposals = [
       "Conexión a la corriente eléctrica en los laboratorios de computación para que los estudiantes puedan cargar sus dispositivos mientras trabajan en proyectos y tareas.",
     image: "/propuestas/tomacorrientes.png",
   },
+  {
+    title: "Librería en el centro de estudiantes",
+    description:
+      "Creación de una librería en el centro de estudiantes para que los estudiantes puedan acceder a libros y materiales de estudio de manera más conveniente.",
+    image: "/propuestas/libreria.png",
+  },
+  {
+    title: "Clases de reforzamiento",
+    description:
+      "Ofrecer clases adicionales de reforzamiento para ayudar a los estudiantes a comprender mejor los conceptos difíciles antes de los examenes.",
+    image: "/propuestas/reforzamiento.png",
+  },
+  {
+    title: "Instalación de sistemas de ventilación",
+    description:
+      "Instalación de sistemas de ventilación en los ambientes del centro de estudiantes para mantener un mejor ambiente.",
+    image: "/propuestas/ventilacion.png",
+  },
+    {
+    title: "Buzón de sugerencias fisico y virtual",
+    description:
+      "Implementación de un buzón de sugerencias físico y virtual para que los estudiantes puedan enviar sus ideas y comentarios sobre la carrera y el centro de estudiantes.",
+    image: "/propuestas/buzon.png",
+    
+  },
+  {
+    title: "Campeonatos deportivos y de e-sports",
+    description:
+      "Organización de campeonatos deportivos y de e-sports para fomentar la actividad física y la competencia amistosa entre los estudiantes.",
+    image: "/propuestas/deportivo.png",
+  },
+  {
+    title: "Celebración del dia del estudiante",
+    description:
+      "Organización de eventos y actividades para celebrar el día del estudiante, para divertirse y fortalecer la comunidad estudiantil.",
+    image: "/propuestas/celebracion.png",
+  },
+  {
+    title: "Organizacion de una chocolatada o refrigerio en fechas especiales",
+    description: "Organización de una chocolatada o refrigerio en fechas especiales para que los estudiantes puedan disfrutar de un momento agradable y compartir con sus compañeros.", 
+    image: "/propuestas/refrigerio.png",
+  }
   
 
 ];
