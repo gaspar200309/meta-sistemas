@@ -1,5 +1,4 @@
 import Benefits from "@/components/landing/Benefits";
-import CTA from "@/components/landing/CTA";
 import Hero from "@/components/landing/Hero";
 import InfoSection from "@/components/landing/InfoSection";
 import Navbar from "@/components/landing/Navbar";
@@ -14,7 +13,6 @@ export default function Home() {
       <VotingTableFinder />
       <ProposalsSection />
 
-      <CTA/>
     </main>
   );
 }
