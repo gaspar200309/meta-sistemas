@@ -83,13 +83,7 @@ export default function ProposalsSection() {
                   transition={{ duration: .3 }}
                   className="overflow-hidden rounded-3xl border border-blue-500/20 bg-slate-900 shadow-[0_0_40px_rgba(37,99,235,.2)]"
                 >
-                  <Image
-                    src={proposal.image}
-                    alt={proposal.title}
-                    width={700}
-                    height={450}
-                    className="h-[320px] w-full object-cover transition duration-700 hover:scale-110"
-                  />
+                  <Image src={proposal.image} alt={proposal.title} width={1536} height={864} className="aspect-video w-full object-cover transition duration-700 hover:scale-110" />
                 </motion.div>
 
                 <div>
